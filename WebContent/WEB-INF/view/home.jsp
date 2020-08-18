@@ -9,6 +9,7 @@
 <body>
 	<h1>Welcome to Student Portal</h1>
 	<h2>For registration, please click the below link:</h2><br>
-	<a href="studentForm">Student Form Page</a>
+	<a href="studentForm">Student Form Page</a><br><br>
+	<a href="customerForm">Customer Form Page</a>
 </body>
 </html>

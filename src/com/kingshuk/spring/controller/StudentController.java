@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.kingshuk.spring.model.Student;
 
 @Controller
-@PropertySource("classpath:test.properties")
+@PropertySource("classpath:/resources/messages.properties")
 public class StudentController {
 	
-	@Value("${key}")
-	String value;
+//	@Value("${key}")
+//	String value;
 	
 	@Autowired
 	@Qualifier("countryOptions")
